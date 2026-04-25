@@ -5,6 +5,7 @@ import React, { useState } from "react";
 import { NAVLINKS_DATA } from "@/utils/helper";
 import Button from "./Button";
 import Icons from "./Icons";
+import Image from "next/image";
 
 function Navbar() {
     const [menuOpen, setMenuOpen] = useState(null);
@@ -15,7 +16,7 @@ function Navbar() {
 
                     {/* Logo */}
                     <Link href="/" onClick={() => setMenuOpen(false)} className="cursor-pointer z-999">
-                        <img src="/images/webp/logo-image.webp" alt="logo" />
+                        <Image src="./images/webp/logo-image.webp" alt="logo" width={193} height={41} />
                     </Link>
 
                     {/* Nav Links */}
@@ -58,7 +59,7 @@ function Navbar() {
                     </nav>
 
                     {/* Button */}
-                    <Button text="Get Free Quote"  className={"max-lg:hidden"}/>
+                    <Button text="Get Free Quote" className={"max-lg:hidden"} />
                     <button onClick={() => setMenuOpen(menuOpen === "show" ? null : "show")} aria-label="Open menu" className="lg:hidden flex flex-col gap-1.5 w-10 h-10 justify-center items-center z-999 cursor-pointer">
                         <span className={`block w-7 h-0.5 rounded-[30px] bg-black transition-all duration-300 ${menuOpen === "show" ? "rotate-45 translate-y-2" : ""}`} />
                         <span className={`block w-7 h-0.5 rounded-[30px] bg-black transition-all duration-300 ${menuOpen === "show" ? "opacity-0" : ""}`} />
