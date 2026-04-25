@@ -15,7 +15,7 @@ function Upholstery_tips() {
                     </p>
                 </div>
                 <div className='grid grid-cols-3 max-[1100px]:grid-cols-2 max-sm:grid-cols-1 gap-6'>
-                    <img src="/images/webp/upholstery-tips-one.webp" alt="image-one" className='w-full min-[1100px]:max-w-[364px] h-[312px]' />
+                    <img src="/assets/images/webp/upholstery-tips-one.webp" alt="image-one" className='w-full min-[1100px]:max-w-[364px] h-[312px]' />
                     <div className='p-5 bg-offwhite shadow-[0px_4px_25px_rgba(1,1,1,0.10)] rounded-2xl w-full min-[1100px]:max-w-[364px] h-[312px]'>
                         <div className='flex flex-col justify-between h-full'>
                             <div>
@@ -30,7 +30,7 @@ function Upholstery_tips() {
                             </button>
                         </div>
                     </div>
-                    <img src="/images/webp/upholstery-tips-two.webp" alt="image-one" className='w-full min-[1100px]:max-w-[364px] h-[312px]' />
+                    <img src="/assets/images/webp/upholstery-tips-two.webp" alt="image-one" className='w-full min-[1100px]:max-w-[364px] h-[312px]' />
                 </div>
                 <div className='mt-7.5 flex justify-center  '>
                     <Button text={"Show More"} className={"max-sm:w-full max-sm:justify-center"}/>

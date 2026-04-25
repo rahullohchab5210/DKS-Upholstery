@@ -24,7 +24,7 @@ function AboutUs() {
                         </div>
                     </div>
 
-                    <img src="/images/webp/about-us.webp" alt="about-image" className='w-full h-full max-w-[533px] max-h-[625.15px]' />
+                    <img src="/assets/images/webp/about-us.webp" alt="about-image" className='w-full h-full max-w-[533px] max-h-[625.15px]' />
                 </div>
             </div>
         </div>

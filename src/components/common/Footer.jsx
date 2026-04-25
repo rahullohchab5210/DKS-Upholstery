@@ -18,7 +18,7 @@ const Footer = () => {
                         <div className="flex flex-col gap-6  sm:gap-8 border-b border-b-blacky/12 pb-8 max-w-full lg:max-w-133.75">
                             <Link href={"/"}>
                                 <Image
-                                    src={"/images/webp/logo-image.webp"}
+                                    src={"/assets/images/webp/logo-image.webp"}
                                     height={41}
                                     width={193}
                                     alt="logo"

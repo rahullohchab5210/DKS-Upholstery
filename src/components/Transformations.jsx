@@ -13,7 +13,7 @@ function Transformations() {
     const swiperRef = useRef(null)
 
     return (
-        <div className="md:py-30 py-12.5 bg-[url('/images/webp/transformations-bg.webp')] bg-cover bg-center bg-no-repeat w-ful">
+        <div className="md:py-30 py-12.5 bg-[url('/assets/images/webp/transformations-bg.webp')] bg-cover bg-center bg-no-repeat w-ful">
             <div className="max-w-285 mx-auto max-[1350px]:px-8 relative">
 
                 {/* Heading */}
@@ -83,7 +83,7 @@ function Transformations() {
                                     <div className="flex items-center gap-2.5 mt-3.75">
                                         <div className="w-11.5 h-11.5 flex items-center justify-center rounded-full bg-offwhite">
                                             <img
-                                                src="/images/webp/google-image.webp"
+                                                src="/assets/images/webp/google-image.webp"
                                                 alt="google-image"
                                                 className="w-10 h-10"
                                             />

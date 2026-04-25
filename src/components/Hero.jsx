@@ -5,14 +5,14 @@ import FreeQuote from './FreeQuote'
 
 function Hero() {
     return (
-        <div className="bg-[url('/images/webp/hero-bg.webp')] bg-cover bg-center bg-no-repeat w-full h-full">
+        <div className="bg-[url('/assets/images/webp/hero-bg.webp')] bg-cover bg-center bg-no-repeat w-full h-full">
             <div className='max-w-285 mx-auto max-[1350px]:px-5'>
                 <div className='flex lg:flex-row flex-col  max-lg:gap-y-[89px] items-center justify-between pt-25.75  md:pb-[148.01px] pb-[73px]'>
                     <div className='max-lg:flex max-lg:flex-col max-lg:items-center'>
                         <div>
                             <span className='font-inter sm:text-base text-sm font-medium sm:leading-120 leading-150 tracking-normal text-black'>Highly Rated on Google</span>
                             <div className='flex items-center sm:gap-3 gap-2.75 pt-1.5 max-sm:w-[141px] max-sm:h-5.5'>
-                                <img src="/images/webp/google-image.webp" alt="google-image" />
+                                <img src="/assets/images/webp/google-image.webp" alt="google-image" />
                                 <Icons icon={"STARS"} />
                             </div>
                         </div>
@@ -26,7 +26,7 @@ function Hero() {
                         />
                     </div>
                     <div>
-                        <img src="/images/webp/hero-sofa.webp" alt="sofa-images" />
+                        <img src="/assets/images/webp/hero-sofa.webp" alt="sofa-images" />
                     </div>
                 </div>
             </div>

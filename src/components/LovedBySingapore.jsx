@@ -96,7 +96,7 @@ function LovedBySingapore() {
                                 </div>
 
                                 <div className='flex items-center w-fit sm:mt-[70px] mt-[68px]'>
-                                    <img src="/images/webp/google-image.webp" alt="google-image" className='w-6 h-6' />
+                                    <img src="/assets/images/webp/google-image.webp" alt="google-image" className='w-6 h-6' />
                                     <Icons icon={"STARS"} className={"w-[116px] h-5"} />
                                 </div>
 

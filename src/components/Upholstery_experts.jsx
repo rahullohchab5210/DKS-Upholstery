@@ -4,7 +4,7 @@ import Button from './common/Button'
 
 function Upholstery_experts() {
     return (
-        <div className="bg-[url('/images/webp/trusted-bg.webp')] bg-cover bg-center bg-no-repeat sm:pt-11.25 sm:pb-13.75 pt-12.5 pb-12.5 bg-[#FAF9F5]"> 
+        <div className="bg-[url('/assets/images/webp/trusted-bg.webp')] bg-cover bg-center bg-no-repeat sm:pt-11.25 sm:pb-13.75 pt-12.5 pb-12.5 bg-[#FAF9F5]"> 
       <div className='max-w-198.75 mx-auto max-[1350px]:px-8.25'>
           <div className=' '>
                     <div className='flex flex-col gap-4 text-center'>

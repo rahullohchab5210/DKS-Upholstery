@@ -39,40 +39,40 @@ export const NAVLINKS_DATA = [
 
 export const TRUSTED_IMAGE_DATA = [
     {
-        img: "/images/webp/trusted-one.webp"
+        img: "/assets/images/webp/trusted-one.webp"
     },
     {
-        img: "/images/webp/trusted-two.webp"
+        img: "/assets/images/webp/trusted-two.webp"
     },
     {
-        img: "/images/webp/trusted-three.webp"
+        img: "/assets/images/webp/trusted-three.webp"
     },
     {
-        img: "/images/webp/trusted-four.webp"
+        img: "/assets/images/webp/trusted-four.webp"
     },
     {
-        img: "/images/webp/trusted-five.webp"
+        img: "/assets/images/webp/trusted-five.webp"
     },
     {
-        img: "/images/webp/trusted-six.webp"
+        img: "/assets/images/webp/trusted-six.webp"
     },
     {
-        img: "/images/webp/trusted-one.webp"
+        img: "/assets/images/webp/trusted-one.webp"
     },
     {
-        img: "/images/webp/trusted-two.webp"
+        img: "/assets/images/webp/trusted-two.webp"
     },
     {
-        img: "/images/webp/trusted-three.webp"
+        img: "/assets/images/webp/trusted-three.webp"
     },
     {
-        img: "/images/webp/trusted-four.webp"
+        img: "/assets/images/webp/trusted-four.webp"
     },
     {
-        img: "/images/webp/trusted-five.webp"
+        img: "/assets/images/webp/trusted-five.webp"
     },
     {
-        img: "/images/webp/trusted-six.webp"
+        img: "/assets/images/webp/trusted-six.webp"
     },
 ];
 
@@ -102,31 +102,31 @@ export const LOVED_SINGAPORE_DATA = [
         paragraph: (`My sofa looks brand new! Quick, professional, and high quality work. Couldn’t be happier."  Residential Customer`),
         name: "Aarav M.",
         description: "Operations Manager",
-        img: "/images/webp/aarav-image.webp"
+        img: "/assets/images/webp/aarav-image.webp"
     },
     {
         paragraph: (`They handled our office lounge seating perfectly. Stylish, durable, and on time!"`),
         name: "David K.",
         description: "Facility Director",
-        img: "/images/webp/david-image.webp"
+        img: "/assets/images/webp/david-image.webp"
     },
     {
         paragraph: "Excellent service from start to finish. They helped me choose the perfect fabric, and the results are stunning!",
         name: "Rina S.",
         description: "Sustainability Lead",
-        img: "/images/webp/rina-image.webp"
+        img: "/assets/images/webp/rina-image.webp"
     },
     {
         paragraph: (`My sofa looks brand new! Quick, professional, and high quality work. Couldn’t be happier."  Residential Customer`),
         name: "Aarav M.",
         description: "Operations Manager",
-        img: "/images/webp/aarav-image.webp"
+        img: "/assets/images/webp/aarav-image.webp"
     },
     {
         paragraph: (`They handled our office lounge seating perfectly. Stylish, durable, and on time!"`),
         name: "David K.",
         description: "Facility Director",
-        img: "/images/webp/david-image.webp"
+        img: "/assets/images/webp/david-image.webp"
     },
 ];
 
@@ -134,46 +134,46 @@ export const LOVED_SINGAPORE_DATA = [
 
 export const BEFORE_AFTER_DATA = [
     {
-        img: "/images/webp/before-after-image.webp"
+        img: "/assets/images/webp/before-after-image.webp"
     },
     {
-        img: "/images/webp/before-after-two.webp"
+        img: "/assets/images/webp/before-after-two.webp"
     },
     {
-        img: "/images/webp/before-after-image.webp"
+        img: "/assets/images/webp/before-after-image.webp"
     },
     {
-        img: "/images/webp/before-after-two.webp"
+        img: "/assets/images/webp/before-after-two.webp"
     },
     {
-        img: "/images/webp/before-after-image.webp"
+        img: "/assets/images/webp/before-after-image.webp"
     },
     {
-        img: "/images/webp/before-after-two.webp"
+        img: "/assets/images/webp/before-after-two.webp"
     },
     {
-        img: "/images/webp/before-after-image.webp"
+        img: "/assets/images/webp/before-after-image.webp"
     },
     {
-        img: "/images/webp/before-after-two.webp"
+        img: "/assets/images/webp/before-after-two.webp"
     },
 ];
 
 export const BEFORE_SM_DATA = [
     {
-        img: "/images/webp/before-sm-one.webp"
+        img: "/assets/images/webp/before-sm-one.webp"
     },
     {
-        img: "/images/webp/before-sm-two.webp"
+        img: "/assets/images/webp/before-sm-two.webp"
     },
     {
-        img: "/images/webp/before-sm-three.webp"
+        img: "/assets/images/webp/before-sm-three.webp"
     },
     {
-        img: "/images/webp/before-sm-four.webp"
+        img: "/assets/images/webp/before-sm-four.webp"
     },
     {
-        img: "/images/webp/before-sm-five.webp"
+        img: "/assets/images/webp/before-sm-five.webp"
     },
 ];
 
@@ -215,13 +215,13 @@ export const OUR_SERVICES_DATA = [
         
 export const TRANSFORMATIONS_DATA = [
     {
-        img: "/images/webp/transformations-image.webp",
+        img: "/assets/images/webp/transformations-image.webp",
         title: "“Outstanding Service!”",
         description: "My sofa looks brand new! The team was professional, quick, and the finish exceeded my expectations.”",
         name: "Arjun S."
     },
     {
-        img: "/images/webp/transformations-image.webp",
+        img: "/assets/images/webp/transformations-image.webp",
         title: "“Outstanding Service!”",
         description: "My sofa looks brand new! The team was professional, quick, and the finish exceeded my expectations.”",
         name: "Arjun S."
@@ -255,21 +255,21 @@ export const ABOUT_US_DATA = [
  
 export const SERVICE_WORKS_DATA = [
     {
-        img: "/images/webp/service-works-one.webp",
+        img: "/assets/images/webp/service-works-one.webp",
         count: "1",
         title: "Send Us a Photo",
         description:
             "Upload your furniture photo via WhatsApp or our quick online form so we can understand size, condition, and fabric or leather options.",
     },
     {
-        img: "/images/webp/service-works-two.webp",
+        img: "/assets/images/webp/service-works-two.webp",
         count: "2",
         title: "Get a Transparent Quote",
         description:
             "We’ll reply with a clear estimate based on the item and chosen material. Choose from a wide range of fabrics, leathers, and foam to fit your style and budget.",
     },
     {
-        img: "/images/webp/service-works-three.webp",
+        img: "/assets/images/webp/service-works-three.webp",
         count: "3",
         title: "Crafted & Delivered",
         description:
@@ -356,10 +356,10 @@ export const FOOTER_PAGE_DETAILS = [
 ];
 
 export const FOOTER_IMAGES = [
-    "/images/webp/footer-image-one.webp",
-    "/images/webp/footer-image-two.webp",
-    "/images/webp/footer-image-three.webp",
-    "/images/webp/footer-image-four.webp",
-    "/images/webp/footer-image-five.webp",
-    "/images/webp/footer-image-six.webp",
+    "/assets/images/webp/footer-image-one.webp",
+    "/assets/images/webp/footer-image-two.webp",
+    "/assets/images/webp/footer-image-three.webp",
+    "/assets/images/webp/footer-image-four.webp",
+    "/assets/images/webp/footer-image-five.webp",
+    "/assets/images/webp/footer-image-six.webp",
 ];

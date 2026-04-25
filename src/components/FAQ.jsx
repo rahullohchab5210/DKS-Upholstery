@@ -13,7 +13,7 @@ function FAQ() {
     return (
         <div className='md:py-30 pb-12.5 pt-20 relative'>
             <div className='absolute bottom-0 left-0'>
-                <img src="/images/webp/ellipse-two.webp" alt="ellipse-two" />
+                <img src="/assets/images/webp/ellipse-two.webp" alt="ellipse-two" />
             </div>
             <div className='max-w-285 mx-auto max-[1350px]:px-5'>
                 

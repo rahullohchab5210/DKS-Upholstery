@@ -8,7 +8,7 @@ function ServiceWorks() {
   return (
     <div className='md:pt-30 pt-12.5 relative'>
       <div className='absolute top-0 left-0'>
-        <img src="/images/webp/ellipse-one.webp" alt="ellipse" />
+        <img src="/assets/images/webp/ellipse-one.webp" alt="ellipse" />
       </div>
       <div className='max-w-285 mx-auto max-[1350px]:px-5'>
         <div className='flex flex-col items-center text-center sm:pb-12.5 pb-14.75'>
