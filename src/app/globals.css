@@ -1,26 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+
+  /* Colors */
+  --color-green: #19AE1A;
+  --color-black: #010101;
+  --color-gray-dark: #4D4D4D;
+  --color-gray-light: #AFAFAF;
+  --color-offwhite: #FAFAFA;
+
+  /* Font Sizes */
+  --text-small: 12px;
+  --text-body: 32px;
+
+  /* Line Heights */
+  --leading-100: 100%;
+  --leading-110: 110%;
+  --leading-120: 120%;
+  --leading-130: 130%;
+  --leading-140: 140%;
+  --leading-150: 150%;
+  --leading-160: 160%;
+  --leading-205: 205%;
+  --leading-225: 225%;
+  --leading-229: 229%;
+  --leading-231: 231%;
+  --leading-154: 154%;
+  --leading-202: 202%;
+  --leading-162: 162%;
+
+  /* Fonts */
+  --font-poppins: 'Poppins', sans-serif;
+  --font-montserrat: 'Montserrat', sans-serif;
+  --font-inter: 'Inter', sans-serif;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+
+.custom-pagination {
+  margin-top: 32px;
+  display: flex;
+  justify-content: center;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* inactive dot */
+.custom-pagination .swiper-pagination-bullet {
+  background: #20AE1929;
+  /* inactive */
+  opacity: 1;
+  /* important so color visible rahe */
+  width: 10px;
+  height: 10px;
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+/* active dot */
+.custom-pagination .swiper-pagination-bullet-active {
+  background: #19AE1A;
+  /* active */
+  opacity: 1;
 }
+
+/* ⭐ Default card style */
+.loved-slider .swiper-slide .slider-card {
+  border: 1px solid rgba(0, 0, 0, 0.16);
+  box-shadow: none;
+  transition: all 0.3s ease;
+  background-color: #FAFAFA;
+}
+
+/* ⭐ Active center card highlighted (exact same look as screenshot) */
+.loved-slider .swiper-slide-active .slider-card {
+  border: 1px solid #010101 !important;
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.08) !important;
+  background-color: #20AE190F;
+}
+
+
+
+
+/* .rahul-bg{
+  background-image: url('/images/webp/logo-image.webp');
+} */
