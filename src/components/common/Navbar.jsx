@@ -16,7 +16,7 @@ function Navbar() {
 
                     {/* Logo */}
                     <Link href="/" onClick={() => setMenuOpen(false)} className="cursor-pointer z-999">
-                        <Image src="/public/assets/images/webp/logo-image.webp" alt="logo" width={193} height={41} />
+                        <Image src="/assets/images/webp/logo-image.webp" alt="logo" width={193} height={41} />
                     </Link>
 
                     {/* Nav Links */}
